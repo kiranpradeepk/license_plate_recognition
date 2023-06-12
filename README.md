@@ -7,3 +7,9 @@
 ### 3. pip install -r .\requirements.txt
 ### 4. download the model: https://drive.google.com/file/d/136xPCImSitdkKiyc2hHmWOvbjkyRfSUQ/view?usp=sharing (train.pt --> repository folder)
 ### 5. execute the main program: python main.py model=train.pt source="test_pic.jpg" show=True
+
+## troubleshooting
+
+### yolo versions above 8.0.0 might not be compatible
+### pip uninstall ultralytics
+### pip install ultralytics==8.0.0
