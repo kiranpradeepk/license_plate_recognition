@@ -10,6 +10,7 @@
 
 ## troubleshooting
 
-### yolo versions above 8.0.0 might not be compatible
-### pip uninstall ultralytics
-### pip install ultralytics==8.0.0
+### yolo versions above 8.0.0 might not be compatible.
+### if so..
+###         pip uninstall ultralytics
+###         pip install ultralytics==8.0.0
